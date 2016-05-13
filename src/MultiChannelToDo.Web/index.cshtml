@@ -15,8 +15,8 @@
         <img src="img/spinner.gif" class="spinner" ng-show="loading" />
         <div class="check-list-container">
             <div class="check-list-item-container">
-                <ul class="check-list">
-                    <li id="check-list-item-{{item.Id}}" ng-repeat="item in items" ng-hide="{{item.Complete}}" ng-click="complete(item)" class="check-list-item"><span class="glyphicon glyphicon-check" aria-hidden="true"></span> {{item.Text}}</li>
+                <ul class="list-group">
+                    <li id="check-list-item-{{item.Id}}" ng-repeat="item in items" ng-hide="{{item.Complete}}" ng-click="complete(item)" class="list-group-item"><span class="glyphicon glyphicon-check" aria-hidden="true"></span> {{item.Text}}</li>
                 </ul>
             </div>
         </div>
